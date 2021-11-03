@@ -50,10 +50,13 @@ python3 train.py <path_to_data>
 		torchvision.transforms.RandomRotation(30)
 	])
   with batch_size = 10, for more detailed explaination about the whole process, please refer to the code comment and report.
-  Warning: You the data path shall not contain / or \ in the tail.
-         : Correct: /data
-         : Error: /data/
-  If you mistype, then error would occur, this format is the same for all the path in this implementation.
+ 
+ Warning: You the data path shall not contain / or \ in the tail.
+
+ 	: Correct: /data
+ 	: Error: /data/
+ 
+ If you mistype, then error would occur, this format is the same for all the path in this implementation.
   
  
 
