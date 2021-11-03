@@ -60,7 +60,7 @@ python3 train.py <path_to_data>
  If you mistype, then error would occur, this format is the same for all the path in this implementation.
   
  
-
+train.py's link: 
 
 
 
@@ -78,7 +78,7 @@ python3 inference.py <path_to_data> <path_to_model>
     In the <path_to_model> you shall indicate the path to the directory that contains following files:
             1. All of the 10 models from best_model0 to best_model9
     
-    To get the 10 models, go to the models/ directory in main branch 
+    To get the 10 models, go to this google cloud to download: 
 
 After running, an answer.txt would be generated and stored locally.
     
@@ -94,7 +94,7 @@ Run checktxt.py: python3 checktxt.py <path_to_first_answer> <path_to_second_answ
     
     If Output is True, means the two answer.txt are exactly the same, in False case, they're not.
 
-
+inference.py's link
 
 
 
@@ -118,7 +118,7 @@ Our model achieves the following performance on :
 
 HW1 challenge on codalab	
 
-![img1](https://github.com/egghead2630/VRDL_HW1/blob/main/bag.png)
+![img1](https://github.com/egghead2630/VRDL_HW1/blob/main/results/result.png)
 
 
 
