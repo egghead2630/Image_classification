@@ -101,7 +101,7 @@ Run checktxt.py: python3 checktxt.py <path_to_first_answer> <path_to_second_answ
     
     If Output is True, means the two answer.txt are exactly the same, in False case, they're not.
 
-inference.py's link
+inference.py's link: https://github.com/egghead2630/VRDL_HW1/blob/main/inference.py
 
 
 
