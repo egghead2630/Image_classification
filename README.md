@@ -53,8 +53,8 @@ python3 train.py <path_to_data>
  
  Warning: You the data path shall not contain / or \ in the tail.
 
- 	: Correct: /data
- 	: Error: /data/
+ 	Correct: /data
+ 	Error: /data/
  
  If you mistype, then error would occur, this format is the same for all the path in this implementation.
   
