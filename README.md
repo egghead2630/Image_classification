@@ -38,7 +38,9 @@ To train the models, run this command:
 
 python3 train.py <path_to_data> 
 
-    Then the the program would perform training and save the ten best models locally, from best_model0 to best_model9
+    Then the the program would perform training and save the ten best models locally, from best_model0 to best_model9.
+    
+    I train 10 models for bagging in the following evaluation part, 10 is a constant coded in train.py and inference.py.
     
     In the <path_to_data> you shall indicate the path to the directory that contains following files and directories:
             1. train(folder): contain all of the images for training
@@ -76,7 +78,7 @@ train.py's link: https://github.com/egghead2630/VRDL_HW1/blob/main/train.py
 
 Evaluation
 -------------------------------------------------------------------------
-To evaluate my model on, run:
+To evaluate my model, run:
 
 python3 inference.py <path_to_data> <path_to_model>
     
@@ -85,7 +87,7 @@ python3 inference.py <path_to_data> <path_to_model>
     In the <path_to_model> you shall indicate the path to the directory that contains following files:
             1. All of the 10 models from best_model0 to best_model9
     
-To get the 10 models, go to this google cloud to download: https://drive.google.com/drive/folders/1pyId96KiD4XHN25f7EQhh9PYi792z6Pi?usp=sharing
+To get the 10 models that I used, go to this google cloud to download: https://drive.google.com/drive/folders/1pyId96KiD4XHN25f7EQhh9PYi792z6Pi?usp=sharing
 
 After running, an answer.txt would be generated and stored locally.
     
