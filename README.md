@@ -67,7 +67,7 @@ python3 train.py <path_to_data>
  If you mistype, then error would occur, this format is the same for all the path in this implementation.
   
  
-train.py's link: 
+train.py's link: https://github.com/egghead2630/VRDL_HW1/blob/main/train.py
 
 
 
