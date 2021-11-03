@@ -103,6 +103,7 @@ Run checktxt.py: python3 checktxt.py <path_to_first_answer> <path_to_second_answ
 
 inference.py's link: https://github.com/egghead2630/VRDL_HW1/blob/main/inference.py
 
+checktxt.py's link: https://github.com/egghead2630/VRDL_HW1/blob/main/checktxt.py
 
 
 
