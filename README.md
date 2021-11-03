@@ -8,10 +8,13 @@ Requirements
 
 pytorch:
     pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio===0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+
 sklearn:
     pip3 install scikit-learn
+
 PIL:
     python3 -m pip install --upgrade Pillow
+
 matplotlib:
     pip3 install matplotlib
 
@@ -38,14 +41,14 @@ python3 train.py <path_to_data>
     
     About train process, I specify the transform as:
 
-transform = torchvision.transforms.Compose([
-	torchvision.transforms.Resize((300,300)),
-	torchvision.transforms.RandomCrop((270,270)),	
-	torchvision.transforms.ToTensor(),
-	torchvision.transforms.Normalize(mean = [0.485,0.456,0.406], std = [0.229,0.224,0.225]),
-	torchvision.transforms.RandomHorizontalFlip(),
-	torchvision.transforms.RandomRotation(30)
-])
+	transform = torchvision.transforms.Compose([
+		torchvision.transforms.Resize((300,300)),
+		torchvision.transforms.RandomCrop((270,270)),	
+		torchvision.transforms.ToTensor(),
+		torchvision.transforms.Normalize(mean = [0.485,0.456,0.406], std = [0.229,0.224,0.225]),
+		torchvision.transforms.RandomHorizontalFlip(),
+		torchvision.transforms.RandomRotation(30)
+	])
   with batch_size = 10, for more detailed explaination about the whole process, please refer to the code comment and report.
   Warning: You the data path shall not contain / or \ in the tail.
          : Correct: /data
