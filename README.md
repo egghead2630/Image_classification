@@ -122,7 +122,7 @@ idx	  	SCORE	    	FILENAME	SUBMISSION DATE	        STATUS
 
 17		0.729311	answer.zip	11/02/2021 12:54:20	Finished		
 
-![img1](3DTest.png)
+![img1](https://github.com/egghead2630/VRDL_HW1/blob/main/bag.png)
 
 
 leaderboard:
