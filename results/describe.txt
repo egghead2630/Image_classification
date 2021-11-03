@@ -1,0 +1,1 @@
+This directory stores the result image showing the accuracy
