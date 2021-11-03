@@ -118,9 +118,11 @@ Our model achieves the following performance on :
 
 HW1 challenge on codalab
 
-idx	  SCORE	    	FILENAME	SUBMISSION DATE	        STATUS
+idx	  	SCORE	    	FILENAME	SUBMISSION DATE	        STATUS
 
-17	0.729311	answer.zip	11/02/2021 12:54:20	Finished		
+17		0.729311	answer.zip	11/02/2021 12:54:20	Finished		
+
+![img1](3DTest.png)
 
 
 leaderboard:
