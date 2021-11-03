@@ -5,6 +5,8 @@ This repository is the official implementation of My VRDL_HW1: Image classificat
 
 Requirements
 -------------------------------------------------------------------------
+Python version:
+　　Python 3.9.7
 
 pytorch:
     pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio===0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
