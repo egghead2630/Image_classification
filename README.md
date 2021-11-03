@@ -78,7 +78,7 @@ python3 inference.py <path_to_data> <path_to_model>
     In the <path_to_model> you shall indicate the path to the directory that contains following files:
             1. All of the 10 models from best_model0 to best_model9
     
-    To get the 10 models, go to this google cloud to download: https://drive.google.com/drive/folders/1pyId96KiD4XHN25f7EQhh9PYi792z6Pi?usp=sharing
+To get the 10 models, go to this google cloud to download: https://drive.google.com/drive/folders/1pyId96KiD4XHN25f7EQhh9PYi792z6Pi?usp=sharing
 
 After running, an answer.txt would be generated and stored locally.
     
