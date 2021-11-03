@@ -80,15 +80,16 @@ python3 inference.py <path_to_data> <path_to_model>
     
     To get the 10 models, go to the models/ directory in main branch 
 
-    After running, an answer.txt would be generated and stored locally.
+After running, an answer.txt would be generated and stored locally.
     
-    Compress the answer.txt to .zip file and upload to codalab is enough to evaluate my model's prediction
+Compress the answer.txt to .zip file and upload to codalab is enough to evaluate my model's prediction
     
-    For convinience, I write a checktxt.py to check if two answer.txt is the same
+For convinience, I write a checktxt.py to check if two answer.txt is the same
     
-    To run checktxt.py: python3 checktxt.py <path_to_first_answer> <path_to_second_answer>
+Run checktxt.py: python3 checktxt.py <path_to_first_answer> <path_to_second_answer>
     
     <path_to_first_answer> should be filled with the path to first answer.txt   ex: /answer1/answer.txt
+    
     <path_to_second_answer> should be filled with the path to second answer.txt   ex: /answer2/answer.txt
     
     If Output is True, means the two answer.txt are exactly the same, in False case, they're not.
@@ -116,7 +117,7 @@ Results
 Our model achieves the following performance on :
 
 HW1 challenge on codalab
-#	  SCORE	    FILENAME	  SUBMISSION DATE	    STATUS
+idx	  SCORE	    	FILENAME	SUBMISSION DATE	        STATUS
 17	0.729311	answer.zip	11/02/2021 12:54:20	Finished		
 
 
