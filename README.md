@@ -30,6 +30,7 @@ Training
 To train the models, run this command:
 
 python3 train.py <path_to_data> 
+
     Then the the program would perform training and save the ten best models locally, from best_model0 to best_model9
     
     In the <path_to_data> you shall indicate the path to the directory that contains following files and directories:
@@ -75,7 +76,9 @@ python3 inference.py <path_to_data> <path_to_model>
     <path_to_data> is the same as train part
     
     In the <path_to_model> you shall indicate the path to the directory that contains following files:
-            1. All of the 10 models from best_model0 to best_model9 
+            1. All of the 10 models from best_model0 to best_model9
+    
+    To get the 10 models, go to the models/ directory in main branch 
 
     After running, an answer.txt would be generated and stored locally.
     
