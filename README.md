@@ -89,6 +89,18 @@ python3 inference.py <path_to_data> <path_to_model>
     
 To get the 10 models that I used, go to this google cloud to download: https://drive.google.com/drive/folders/1pyId96KiD4XHN25f7EQhh9PYi792z6Pi?usp=sharing
 
+	Note that there is a bug in google drive, that if you choose to download all the files together, you will download a zip file
+
+	After unzip, you will get a folder models/, but inside the model would be best_models0.zip instead of best_models0
+	
+	I think this is a google drive bug about filename extension, you have two ways to solve the problem
+	
+	1. Delete all the .zip filename extension, and you can run the inference.py with those best_models normally
+	
+	2. Manually download them one by one, this way you would get 10 best_models instead of best_models.zip
+	
+	
+
 After running, an answer.txt would be generated and stored locally.
     
 Compress the answer.txt to .zip file and upload to codalab is enough to evaluate my model's prediction
