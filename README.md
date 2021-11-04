@@ -91,7 +91,7 @@ To get the 10 models that I used, go to this google cloud to download: https://d
 
 	Note that there is a bug in google drive, that if you choose to download all the files together, you will download a zip file
 
-	After unzip, you will get a folder models/, but inside the model would be best_models0.zip instead of best_models0
+	After unzip, you will get a folder models/, but inside the models/ would be ten models with name best_model0~9.zip instead of best_model0~9
 	
 	I think this is a google drive bug about filename extension, you have two ways to solve the problem
 	
